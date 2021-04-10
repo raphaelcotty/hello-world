@@ -1,7 +1,7 @@
 import qbs
 
 CppApplication {
-    name: "Hell Workd"
+    name: "hello-world"
     files: ["main.cpp"]
 }
 
