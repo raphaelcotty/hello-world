@@ -17,7 +17,13 @@ Project {
     DynamicLibrary {
         name: "someLib"
         Depends { name: "cpp" }
-        files: ["someLib.cpp", "someLib.h"]
+        files: ["someLib.cpp"]
+        Group {
+            name: "headers"
+            files: ["someLib.h"]
+            qbs.install: true
+            qbs.installDir: "include"
+        }
         install: true
         version: "1.0"
     }
