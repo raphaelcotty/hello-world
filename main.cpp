@@ -1,7 +1,8 @@
 #include <iostream>
+#include "someLib.h"
 
 int main ()
 {
     std::cout << "Hello World!";
-    return 0;
+    return doSomeThingWithArgs(100);
 }
