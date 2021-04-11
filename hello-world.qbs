@@ -19,5 +19,6 @@ Project {
         Depends { name: "cpp" }
         files: ["someLib.cpp", "someLib.h"]
         install: true
+        version: "1.0"
     }
 }
