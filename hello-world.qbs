@@ -18,6 +18,6 @@ Project {
         name: "someLib"
         Depends { name: "cpp" }
         files: ["someLib.cpp", "someLib.h"]
+        install: true
     }
 }
-
